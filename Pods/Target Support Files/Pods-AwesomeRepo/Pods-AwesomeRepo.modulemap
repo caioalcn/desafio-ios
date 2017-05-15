@@ -1,0 +1,6 @@
+framework module Pods_AwesomeRepo {
+  umbrella header "Pods-AwesomeRepo-umbrella.h"
+
+  export *
+  module * { export * }
+}

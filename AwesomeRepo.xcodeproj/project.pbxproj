@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3443C8FE2D56CA9528BB198 /* Pods_AwesomeRepo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E740C64E4B567F2E6FA56C /* Pods_AwesomeRepo.framework */; };
+		DB39F3C21EC57B0E0071FD09 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39F3C11EC57B0E0071FD09 /* APIRequest.swift */; };
+		DB39F3C41EC57CBB0071FD09 /* Worklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39F3C31EC57CBB0071FD09 /* Worklist.swift */; };
+		DB39F3C61EC57CFA0071FD09 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39F3C51EC57CFA0071FD09 /* Repository.swift */; };
+		DB39F3C81EC580DE0071FD09 /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39F3C71EC580DE0071FD09 /* RepositoriesViewController.swift */; };
+		DB39F3CA1EC583010071FD09 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39F3C91EC583010071FD09 /* User.swift */; };
+		DB39F3CC1EC58ADC0071FD09 /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39F3CB1EC58ADC0071FD09 /* RepositoryTableViewCell.swift */; };
+		DB5146181EC5592100FFBE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5146171EC5592100FFBE73 /* AppDelegate.swift */; };
+		DB51461D1EC5592100FFBE73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB51461B1EC5592100FFBE73 /* Main.storyboard */; };
+		DB51461F1EC5592100FFBE73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB51461E1EC5592100FFBE73 /* Assets.xcassets */; };
+		DBAB71871EC622510008D0EF /* PullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAB71861EC622510008D0EF /* PullRequest.swift */; };
+		DBAB71891EC637B20008D0EF /* PRWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAB71881EC637B20008D0EF /* PRWebViewController.swift */; };
+		DBB142441EC60E0E00BE7D9E /* KRProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB142401EC60E0E00BE7D9E /* KRProgressHUD.swift */; };
+		DBB142451EC60E0E00BE7D9E /* KRProgressHUDExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB142411EC60E0E00BE7D9E /* KRProgressHUDExtensions.swift */; };
+		DBB142461EC60E0E00BE7D9E /* KRProgressHUDIconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB142421EC60E0E00BE7D9E /* KRProgressHUDIconType.swift */; };
+		DBB142471EC60E0E00BE7D9E /* KRProgressHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB142431EC60E0E00BE7D9E /* KRProgressHUDViewController.swift */; };
+		DBB1424B1EC60E2000BE7D9E /* KRActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB142491EC60E2000BE7D9E /* KRActivityIndicatorView.swift */; };
+		DBB1424C1EC60E2000BE7D9E /* KRActivityIndicatorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB1424A1EC60E2000BE7D9E /* KRActivityIndicatorViewStyle.swift */; };
+		DBB1424E1EC61B4600BE7D9E /* PullRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB1424D1EC61B4600BE7D9E /* PullRequestsViewController.swift */; };
+		DBB142501EC61D2700BE7D9E /* PullsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB1424F1EC61D2700BE7D9E /* PullsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5726CB01295F8BE11A4098C0 /* Pods-AwesomeRepo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeRepo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeRepo/Pods-AwesomeRepo.release.xcconfig"; sourceTree = "<group>"; };
+		82E7829A2519DD1046EA9CEA /* Pods-AwesomeRepo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeRepo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeRepo/Pods-AwesomeRepo.debug.xcconfig"; sourceTree = "<group>"; };
+		B1E740C64E4B567F2E6FA56C /* Pods_AwesomeRepo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeRepo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB39F3C11EC57B0E0071FD09 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		DB39F3C31EC57CBB0071FD09 /* Worklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Worklist.swift; sourceTree = "<group>"; };
+		DB39F3C51EC57CFA0071FD09 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		DB39F3C71EC580DE0071FD09 /* RepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesViewController.swift; sourceTree = "<group>"; };
+		DB39F3C91EC583010071FD09 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DB39F3CB1EC58ADC0071FD09 /* RepositoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryTableViewCell.swift; sourceTree = "<group>"; };
+		DB5146141EC5592100FFBE73 /* AwesomeRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5146171EC5592100FFBE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB51461C1EC5592100FFBE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB51461E1EC5592100FFBE73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB5146231EC5592100FFBE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBAB71861EC622510008D0EF /* PullRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequest.swift; sourceTree = "<group>"; };
+		DBAB71881EC637B20008D0EF /* PRWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRWebViewController.swift; sourceTree = "<group>"; };
+		DBB1423E1EC60DFD00BE7D9E /* KRProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRProgressHUD.h; sourceTree = "<group>"; };
+		DBB142401EC60E0E00BE7D9E /* KRProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRProgressHUD.swift; sourceTree = "<group>"; };
+		DBB142411EC60E0E00BE7D9E /* KRProgressHUDExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRProgressHUDExtensions.swift; sourceTree = "<group>"; };
+		DBB142421EC60E0E00BE7D9E /* KRProgressHUDIconType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRProgressHUDIconType.swift; sourceTree = "<group>"; };
+		DBB142431EC60E0E00BE7D9E /* KRProgressHUDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRProgressHUDViewController.swift; sourceTree = "<group>"; };
+		DBB142491EC60E2000BE7D9E /* KRActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorView.swift; sourceTree = "<group>"; };
+		DBB1424A1EC60E2000BE7D9E /* KRActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
+		DBB1424D1EC61B4600BE7D9E /* PullRequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequestsViewController.swift; sourceTree = "<group>"; };
+		DBB1424F1EC61D2700BE7D9E /* PullsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullsTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB5146111EC5592100FFBE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3443C8FE2D56CA9528BB198 /* Pods_AwesomeRepo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A10AC097F6D155675EF410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82E7829A2519DD1046EA9CEA /* Pods-AwesomeRepo.debug.xcconfig */,
+				5726CB01295F8BE11A4098C0 /* Pods-AwesomeRepo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB39F3BD1EC579B90071FD09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB39F3C01EC579F70071FD09 /* Classes */,
+				DB39F3C11EC57B0E0071FD09 /* APIRequest.swift */,
+				DB39F3C31EC57CBB0071FD09 /* Worklist.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DB39F3BE1EC579C10071FD09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB39F3CB1EC58ADC0071FD09 /* RepositoryTableViewCell.swift */,
+				DBB1424F1EC61D2700BE7D9E /* PullsTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DB39F3BF1EC579C90071FD09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB39F3C71EC580DE0071FD09 /* RepositoriesViewController.swift */,
+				DBB1424D1EC61B4600BE7D9E /* PullRequestsViewController.swift */,
+				DBAB71881EC637B20008D0EF /* PRWebViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DB39F3C01EC579F70071FD09 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DB39F3C51EC57CFA0071FD09 /* Repository.swift */,
+				DB39F3C91EC583010071FD09 /* User.swift */,
+				DBAB71861EC622510008D0EF /* PullRequest.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		DB51460B1EC5592100FFBE73 = {
+			isa = PBXGroup;
+			children = (
+				DB5146161EC5592100FFBE73 /* AwesomeRepo */,
+				DB5146151EC5592100FFBE73 /* Products */,
+				84A10AC097F6D155675EF410 /* Pods */,
+				FD0362175634F9949D1BAB78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB5146151EC5592100FFBE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB5146141EC5592100FFBE73 /* AwesomeRepo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB5146161EC5592100FFBE73 /* AwesomeRepo */ = {
+			isa = PBXGroup;
+			children = (
+				DB39F3BD1EC579B90071FD09 /* Model */,
+				DB39F3BE1EC579C10071FD09 /* View */,
+				DB39F3BF1EC579C90071FD09 /* Controller */,
+				DB51461B1EC5592100FFBE73 /* Main.storyboard */,
+				DB5146171EC5592100FFBE73 /* AppDelegate.swift */,
+				DB51461E1EC5592100FFBE73 /* Assets.xcassets */,
+				DB5146231EC5592100FFBE73 /* Info.plist */,
+			);
+			path = AwesomeRepo;
+			sourceTree = "<group>";
+		};
+		DBB1423D1EC60DEB00BE7D9E /* KRProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DBB1423F1EC60E0400BE7D9E /* Classes */,
+				DBB1423E1EC60DFD00BE7D9E /* KRProgressHUD.h */,
+			);
+			name = KRProgressHUD;
+			sourceTree = "<group>";
+		};
+		DBB1423F1EC60E0400BE7D9E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DBB142481EC60E1900BE7D9E /* KRActivityIndicatorView */,
+				DBB142401EC60E0E00BE7D9E /* KRProgressHUD.swift */,
+				DBB142411EC60E0E00BE7D9E /* KRProgressHUDExtensions.swift */,
+				DBB142421EC60E0E00BE7D9E /* KRProgressHUDIconType.swift */,
+				DBB142431EC60E0E00BE7D9E /* KRProgressHUDViewController.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		DBB142481EC60E1900BE7D9E /* KRActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				DBB142491EC60E2000BE7D9E /* KRActivityIndicatorView.swift */,
+				DBB1424A1EC60E2000BE7D9E /* KRActivityIndicatorViewStyle.swift */,
+			);
+			name = KRActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		FD0362175634F9949D1BAB78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBB1423D1EC60DEB00BE7D9E /* KRProgressHUD */,
+				B1E740C64E4B567F2E6FA56C /* Pods_AwesomeRepo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB5146131EC5592100FFBE73 /* AwesomeRepo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5146261EC5592100FFBE73 /* Build configuration list for PBXNativeTarget "AwesomeRepo" */;
+			buildPhases = (
+				CA2B331C5299E26F0B63E14C /* [CP] Check Pods Manifest.lock */,
+				DB5146101EC5592100FFBE73 /* Sources */,
+				DB5146111EC5592100FFBE73 /* Frameworks */,
+				DB5146121EC5592100FFBE73 /* Resources */,
+				7B1BBDF5D10D9A6313A05CB5 /* [CP] Embed Pods Frameworks */,
+				D1904DF90B5C35D9901F153D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwesomeRepo;
+			productName = AwesomeRepo;
+			productReference = DB5146141EC5592100FFBE73 /* AwesomeRepo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB51460C1EC5592100FFBE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Caio Alcântara";
+				TargetAttributes = {
+					DB5146131EC5592100FFBE73 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 42QU6XXW6Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DB51460F1EC5592100FFBE73 /* Build configuration list for PBXProject "AwesomeRepo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB51460B1EC5592100FFBE73;
+			productRefGroup = DB5146151EC5592100FFBE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB5146131EC5592100FFBE73 /* AwesomeRepo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB5146121EC5592100FFBE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB51461F1EC5592100FFBE73 /* Assets.xcassets in Resources */,
+				DB51461D1EC5592100FFBE73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B1BBDF5D10D9A6313A05CB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwesomeRepo/Pods-AwesomeRepo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA2B331C5299E26F0B63E14C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1904DF90B5C35D9901F153D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwesomeRepo/Pods-AwesomeRepo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB5146101EC5592100FFBE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB39F3C21EC57B0E0071FD09 /* APIRequest.swift in Sources */,
+				DBB142501EC61D2700BE7D9E /* PullsTableViewCell.swift in Sources */,
+				DBAB71871EC622510008D0EF /* PullRequest.swift in Sources */,
+				DBAB71891EC637B20008D0EF /* PRWebViewController.swift in Sources */,
+				DBB1424C1EC60E2000BE7D9E /* KRActivityIndicatorViewStyle.swift in Sources */,
+				DBB142441EC60E0E00BE7D9E /* KRProgressHUD.swift in Sources */,
+				DBB1424B1EC60E2000BE7D9E /* KRActivityIndicatorView.swift in Sources */,
+				DBB142471EC60E0E00BE7D9E /* KRProgressHUDViewController.swift in Sources */,
+				DBB142461EC60E0E00BE7D9E /* KRProgressHUDIconType.swift in Sources */,
+				DB39F3C81EC580DE0071FD09 /* RepositoriesViewController.swift in Sources */,
+				DBB142451EC60E0E00BE7D9E /* KRProgressHUDExtensions.swift in Sources */,
+				DB39F3CC1EC58ADC0071FD09 /* RepositoryTableViewCell.swift in Sources */,
+				DB39F3CA1EC583010071FD09 /* User.swift in Sources */,
+				DB5146181EC5592100FFBE73 /* AppDelegate.swift in Sources */,
+				DB39F3C41EC57CBB0071FD09 /* Worklist.swift in Sources */,
+				DBB1424E1EC61B4600BE7D9E /* PullRequestsViewController.swift in Sources */,
+				DB39F3C61EC57CFA0071FD09 /* Repository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB51461B1EC5592100FFBE73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB51461C1EC5592100FFBE73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB5146241EC5592100FFBE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB5146251EC5592100FFBE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB5146271EC5592100FFBE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E7829A2519DD1046EA9CEA /* Pods-AwesomeRepo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 42QU6XXW6Z;
+				INFOPLIST_FILE = AwesomeRepo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-ytech.AwesomeRepo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DB5146281EC5592100FFBE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5726CB01295F8BE11A4098C0 /* Pods-AwesomeRepo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 42QU6XXW6Z;
+				INFOPLIST_FILE = AwesomeRepo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-ytech.AwesomeRepo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB51460F1EC5592100FFBE73 /* Build configuration list for PBXProject "AwesomeRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5146241EC5592100FFBE73 /* Debug */,
+				DB5146251EC5592100FFBE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5146261EC5592100FFBE73 /* Build configuration list for PBXNativeTarget "AwesomeRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5146271EC5592100FFBE73 /* Debug */,
+				DB5146281EC5592100FFBE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB51460C1EC5592100FFBE73 /* Project object */;
+}
